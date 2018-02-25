@@ -1,0 +1,55 @@
+﻿@import "jsdifflib.scss";
+@import "prism";
+@import "jquery.selectedQuoting";
+@import "jquery.hovercard.scss";
+@import "bootstrap-notify";
+@import "jquery.emojipicker";
+
+// -- TableSorter Plugin
+@import "tablesorter/theme.bootstrap_4.min";
+@import "tablesorter/jquery.tablesorter.pager.min";
+
+// --Bootstrap extensions
+@import "css/select2";
+@import "css/select2-bootstrap";
+@import "fontawesome/fontawesome-all";
+@import "jquery.bootstrap-touchspin";
+@import "bootstrap-datetimepicker";
+@import "blueimp-gallery";
+@import "bootstrap-image-gallery";
+
+// --Forum imports
+@import "forum/attachments-upload.scss";
+@import "forum/dropdowns.scss";
+@import "forum/editor.scss";
+@import "forum/user-albums.scss";
+@import "forum/social-icons.scss";
+
+// -- Main
+#YafBody {
+    margin: 0;
+    padding: 5px;
+    width: 99%
+}
+
+// -- Similar topic lists
+.list-similar {
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.navbar-round {
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+}
+
+#passwordStrength {
+    padding: 0 .7em;
+
+    .PasswordStrengthMessageIcon {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: .3em;
+    }
+}
